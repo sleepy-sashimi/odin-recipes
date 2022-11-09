@@ -1,16 +1,53 @@
-ul {
-    color: blue;
-    background-color: beige;
-    font-family: "Copperplate", "Papyrus";
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 10%);
+  line-height: 1.5;
 }
 
-ol {
-    color: green;
-    background-color: beige;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.content-width {
+  max-width: 70ch;
+  width: calc(100% - 4rem);
+  margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
-    color: violet;
-    background-color: beige;
+main {
+  margin-bottom: 4rem;
+}
+
+header {
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+  background-color: hsl(280, 50%, 40%);
+  border-bottom: 4px solid hsl(300, 50%, 50%);
+  color: hsl(300, 50%, 90%);
+}
+
+header p {
+  color: hsl(300, 50%, 85%);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+h2, h3 {
+  color: hsl(280, 50%, 40%)
+}
+
+.content-width {
+    max-width: 70ch;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
 }
