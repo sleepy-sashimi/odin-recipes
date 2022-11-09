@@ -1,0 +1,16 @@
+ul {
+    color: blue;
+    background-color: beige;
+    font-family: "Copperplate", "Papyrus";
+}
+
+ol {
+    color: green;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4 {
+    color: violet;
+    background-color: beige;
+}
